@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    margin: auto;
+}
+
+
+body #container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    background-color: azure;
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    height: fit-content;
+    justify-content: center;
+}
+
+body #stopwatch {
+    margin: 20px auto 0 auto;
+    padding: 10px 0;
+    font-size: 26px;
+    width: 80%;
+    text-align: center;
+    color: white;
+    background-image:
+            linear-gradient(
+                    -225deg,
+                    #231557 0%,
+                    #44107a 29%,
+                    #ff1361 67%,
+                    #fff800 100%
+            );
+    border: 2px solid black;
+}
+
+body #stopwatch span {
+
+
+}
+
+body #start {
+    text-transform: uppercase;
+    background-image:
+            linear-gradient(
+            -225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%
+    );
+    color: white;
+    width: 30%;
+    font-size: 12px;
+    margin: 20px auto;
+    padding: 5px 0;
+}
+
+body #start:hover {
+    cursor: pointer;
+    filter: brightness(120%);
+    font-size: 14px;
+    box-shadow: 5px 5px 5px blueviolet
+}
+
+body #stop {
+    text-transform: uppercase;
+    background-image:
+            linear-gradient(
+                    -225deg,
+                    #231557 0%,
+                    #44107a 29%,
+                    #ff1361 67%,
+                    #fff800 100%
+            );
+    color: white;
+    width: 30%;
+    font-size: 12px;
+    margin: 20px auto;
+    padding: 5px 0;
+}
+
+body #stop:hover {
+    cursor: pointer;
+    filter: brightness(120%);
+    font-size: 14px;
+    box-shadow: 5px 5px 5px blueviolet
+}
+
+body #reset {
+    text-transform: uppercase;
+
+    background-image:
+            linear-gradient(
+                    -225deg,
+                    #231557 0%,
+                    #44107a 29%,
+                    #ff1361 67%,
+                    #fff800 100%
+            );
+    color: white;
+    width: 30%;
+    font-size: 12px;
+    margin: 20px auto;
+    padding: 5px 0;
+}
+
+body #reset:hover {
+    cursor: pointer;
+    filter: brightness(120%);
+    font-size: 14px;
+    box-shadow: 5px 5px 5px blueviolet;
+}
